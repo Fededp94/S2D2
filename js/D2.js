@@ -88,12 +88,28 @@ if (totalShoppingCart >50){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const variabile1 = 5
-const variabile2 = 8
-const variabile3 = 12
+const federico = 50
+const francesca = 30
+const davide = 28
 
-if(variabile1 < variabile2 && variabile2 < variabile3){
-  console.log(variabile3, variabile2, variabile1)
+if (federico >= francesca && federico >= davide) {
+    if (francesca >= davide) {
+        console.log(federico, francesca, davide)
+    } else {
+        console.log(federico, davide, francesca)
+    }
+} else if (francesca >= federico && b >= davide) {
+    if (federico >= davide) {
+        console.log(francesca, federico, davide)
+    } else {
+        console.log(francesca, davide, federico)
+    }
+} else {
+    if (federico >= francesca) {
+        console.log(davide, federico, francesca)
+    } else {
+        console.log(davide, francesca, federico)
+    }
 }
 
 /* ESERCIZIO 8
